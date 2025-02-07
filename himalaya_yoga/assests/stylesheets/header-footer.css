@@ -38,6 +38,7 @@ body{
     justify-content: center;
     align-items: center;
     padding-left: 1%;
+    width:21%;
 }
 .colum-1 img{
     height: 50px;
@@ -50,7 +51,7 @@ body{
 
 .colum-2{
     display: flex;;
-    width: 66%;
+    width: 67%;
     align-items: center;
     justify-content: end;
 }
@@ -178,7 +179,7 @@ body{
 /*---colum -3*/
 .colum-3{
     display: flex;
-    width: 15%;
+    width: 12%;
     position: relative;
     justify-content: space-around;
     align-items: center;
