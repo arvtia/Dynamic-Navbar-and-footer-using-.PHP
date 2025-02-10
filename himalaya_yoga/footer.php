@@ -25,7 +25,7 @@
             </div>
         </div>
         <div class="cheese-burger">
-            <p>Ⓒ Copyright 2022 | Himalaya Yoga | Designed by Sanekt</p>
+            <p>Ⓒ Copyright 2022 | Himalaya Yoga | Developed by IZS Technocrates Pvt Ltd</p>
         </div>
     </div>
 </footer>
@@ -33,6 +33,10 @@
 
 <script src="assests/script/header.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
 </body>
 
