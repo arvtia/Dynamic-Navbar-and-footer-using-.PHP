@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-<!--style sheet-->
+<!-- Bootstrap style sheet-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<!--custom css file-->
     <link rel="stylesheet" href="assests/stylesheets/header-footer.css" type="text/css">
+<!--AOS Css-->   
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <!--bootstrap css-->
 
 </head>
@@ -29,26 +32,26 @@
         <div class="colum-2">
             <!--list headings-->
             <div class="list-heading">
-                <a href="#"><li>Home</li></a>
-                <a href="#"><li>About Us</li></a>
+                <a href="index.php"><li>Home</li></a>
+                <a href="about-us.php"><li>About Us</li></a>
                 <!--drop down-->
                 <li id="dropdown-0">
                     Our Instructor
                     <img src="assests/images/down.svg" alt="down" id="downIcon">
                     <div class="dropdown" id="first-drop">
                         <!--item drop down list class-->
-                            <a href="#">Master Shivachitam</a>
-                            <a href="#">Amit Kumar AKA Eknath</a>
-                            <a href="#">Doctor Ashish</a>
-                            <a href="#">Ravi Kumar (Sn Prakash Murty)</a>
+                            <a href="masterShivachittam.php">Master Shivachitam</a>
+                            <a href="amit_kumar.php">Amit Kumar AKA Eknath</a>
+                            <a href="dr_ashish.php">Doctor Ashish</a>
+                            <a href="ravi_kumar.php">Ravi Kumar (Sn Prakash Murty)</a>
                     </div>
                 </li> 
                 <!--drop down-->
                 <li id="dropdown-1">Wellness Programs<img src="assests/images/down.svg" alt="down" id="downIcon"> 
                     <div class="dropdown" id="sec-drop">
-                            <a href="#">Programs/ Campaign for overcoming Chronic Lifestyle</a>
-                            <a href="#">Nature Therapy</a>
-                            <a href="#">Alternative Therapy</a>
+                            <a href="wellness_progms.php">Programs/ Campaign for overcoming Chronic Lifestyle</a>
+                            <a href="natur_therapy.php">Nature Therapy</a>
+                            <a href="alternative_therapy.php">Alternative Therapy</a>
                     </div>
                 </li>
                 <!--drop down class-->
@@ -56,13 +59,13 @@
                 <li id="dropdown-2">Yoga <img src="assests/images/down.svg" alt="down" id="downIcon"> 
                     <div class="dropdown" id="third-drop">
                         <!--item drop downlist class-->
-                            <a href="#">Meditation</a>
-                            <a href="#">Panch Karma</a>
-                            <a href="#">Hath Yoga</a>
-                            <a href="#">YTTC (Yoga Teaching Trainer Course)</a>
-                            <a href="#">Health Management</a>
-                            <a href="#">Week day course</a>
-                            <a href="#">Weekend Retreat</a>
+                            <a href="meditation.php">Meditation</a>
+                            <a href="panch_karma.php">Panch Karma</a>
+                            <a href="hath_yoga.php">Hatha Yoga</a>
+                            <a href="yttc.php">YTTC (Yoga Teaching Trainer Course)</a>
+                            <a href="health-mgnt.php">Health Management</a>
+                            <a href="weekday-courses.php">Week day course</a>
+                            <a href="weekend-retreate.php">Weekend Retreat</a>
                         <!--item list ends here-->
                     </div>
                 </li>
@@ -70,7 +73,7 @@
                 
             
                 <!--drop down end-->
-                <a href="#"><li>Virtual Tour</li></a>
+                <a href="virtual-tour.php"><li>Virtual Tour</li></a>
                 <a href="#"><li>Accomodation</li></a>
                 <a href="#"><li>Events</li></a>
                 <!--headings ends here-->
@@ -82,7 +85,7 @@
         <div class="colum-3">
             <!--search icon + contact now btn-->
             <img src="assests/images/search-icon.svg" alt="search-icon" id="search-icon">
-            <div class="btn">Contact Now</div>
+            <div class="btn"><a href="contact-us.php" style="text-decoration:none">Contact Now</a></div>
             <!--toggle navigation icon-->
             <div class="ham-icon">
                 <img src="assests/images/icon-ham.svg" alt="" id="hamburger">
@@ -110,18 +113,18 @@
                     </div>
 
                     <ul id="list-items">
-                        <a href="#">Home</a>
-                        <a href="#">About Us</a>
+                        <a href="index.php">Home</a>
+                        <a href="about-us.php">About Us</a>
                         <li>
                             <div class="list-sub" id="dropdown-button">
                                 <p>Our Instructors</p>
                                 <img src="assests/images/down.svg" alt="down" id="first-down-arrow">
                             </div>
                             <div class="ul" id="sn-dropdown0">
-                                <a href="#">Master Shivachitam</a>
-                                <a href="#">Amit Kumar AKA Eknath</a>
-                                <a href="#">Doctor Ashish</a>
-                                <a href="#">Ravi Kumar (Sn Prakash Murty)</a>
+                                <a href="masterShivachittam.php">Master Shivachitam</a>
+                                <a href="amit_kumar.php">Amit Kumar AKA Eknath</a>
+                                <a href="dr_ashish.php">Doctor Ashish</a>
+                                <a href="ravi_kumar.php">Ravi Kumar (Sn Prakash Murty)</a>
                             </div>
                         </li>
                         <li>
@@ -131,9 +134,9 @@
                             </div>
                     
                             <div class="ul" id="sn-dropdown1">
-                                <a href="#">Programs/ Campaign for overcoming Chronic Lifestyle</a>
-                                <a href="#">Nature Therapy</a>
-                                <a href="#">Alternative Therapy</a>
+                                <a href="wellness_progms.php">Programs/ Campaign for overcoming Chronic Lifestyle</a>
+                                <a href="natur_therapy.php">Nature Therapy</a>
+                                <a href="alternative_therapy.php">Alternative Therapy</a>
                             </div>
                         </li>
                         <li>
@@ -142,16 +145,16 @@
                                 <img src="assests/images/down.svg" alt="down" id="third-down-arrow">
                             </div>
                             <div class="ul" id="sn-dropdown2">
-                                <a href="#">Meditation</a>
-                                <a href="#">Panch Karma</a>
-                                <a href="#">Hath Yoga</a>
-                                <a href="#">YTTC (Yoga Teaching Trainer Course)</a>
-                                <a href="#">Health Management</a>
-                                <a href="#">Week day course</a>
-                                <a href="#">Weekend Retreat</a>                        
+                                <a href="meditation.php">Meditation</a>
+                                <a href="panch_karma.php">Panch Karma</a>
+                                <a href="hath_yoga.php">Hath Yoga</a>
+                                <a href="yttc.php">YTTC (Yoga Teaching Trainer Course)</a>
+                                <a href="health-mgnt.php">Health Management</a>
+                                <a href="weekday-courses.php">Week day course</a>
+                                <a href="weekend-retreate.php">Weekend Retreat</a>                        
                             </div>
                         </li>
-                        <a href="#">Virtual Tour</a>
+                        <a href="virtual-tour.php">Virtual Tour</a>
                         <a href="#">Accomodation</a>
                         <a href="#">Events</a>
                     </ul>
