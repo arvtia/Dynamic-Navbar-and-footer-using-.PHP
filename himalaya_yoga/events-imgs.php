@@ -46,8 +46,8 @@
     </div>
 </div>
 <div class="container-fluid">
-    <div class="text-center">
-        <h2>Never Seen Before Experience</h2>
+    <div class="text-center py-4 ">
+        <h1>Never Seen Before Experience</h1>
     </div>
     <div class="col-6 mx-auto pt-3 pb-4">
         <div class="row">
@@ -86,18 +86,28 @@
         <div class="text-center" id="block-c-1">
             <div class="row pt-4">
                 <div class="col-6">
-                    <img src="assests/images/event-collage7.png" alt="e-7" class="img-fluid object-fit-cover w-100" style="height:320px">
+                    <img src="assests/images/event-collage13.png" alt="e-7" class="img-fluid object-fit-cover w-100" style="height:500px">
                 </div>
-                <div class="col-6">
-                    <img src="assests/images/event-collage11.png" alt="e-9" class="img-fluid object-fit-cover w-100" style="height:320px">
+                    <div class="col-6">
+                        <img src="assests/images/event-collage10.png" alt="e-9" class="img-fluid object-fit-cover w-100" style="height:300px">
+                    <div class="text-start">
+                        <h1>Path to Enlightenment</h1>
+                        <br>
+                        <p>"Explore the path to enlightenment through our Hatha and Ashtanga Yoga classes, guided by experienced instructors."</p>
+                    </div>
                 </div>
             </div>
             <div class="row pt-4">
                 <div class="col-6">
-                    <img src="assests/images/event-collage7.png" alt="e-7" class="img-fluid object-fit-cover w-100" style="height:320px">
+                    <img src="assests/images/event-collage1.png" alt="e-7" class="img-fluid object-fit-cover w-100" style="height:300px">
+                    <div class="text-start">
+                        <h1>Path to Enlightenment</h1>
+                        <br>
+                        <p>"Explore the path to enlightenment through our Hatha and Ashtanga Yoga classes, guided by experienced instructors."</p>
+                    </div>
                 </div>
                 <div class="col-6">
-                    <img src="assests/images/event-collage11.png" alt="e-9" class="img-fluid object-fit-cover w-100" style="height:320px">
+                    <img src="assests/images/event-collage14.png" alt="e-9" class="img-fluid object-fit-cover w-100" style="height:500px">
                 </div>
             </div>
         </div>
@@ -105,18 +115,28 @@
         <div class="text-center" id="block-c-2">
             <div class="row pt-4">
                 <div class="col-6">
-                    <img src="assests/images/event-collage7.png" alt="e-7" class="img-fluid object-fit-cover w-100" style="height:320px">
+                    <img src="assests/images/event-collage15.png" alt="e-7" class="img-fluid object-fit-cover w-100" style="height:500px">
                 </div>
                 <div class="col-6">
-                    <img src="assests/images/event-collage11.png" alt="e-9" class="img-fluid object-fit-cover w-100" style="height:320px">
+                    <img src="assests/images/event-collage6.png" alt="e-9" class="img-fluid object-fit-cover w-100" style="height:300px">
+                    <div class="text-start">
+                        <h1>Balance and Harmony</h1>
+                        <br>
+                        <p>"Find balance and harmony in your life with our tailored yoga programs that cater to all levels and needs."</p>
+                    </div>
                 </div>
             </div>
             <div class="row pt-4">
                 <div class="col-6">
-                    <img src="assests/images/event-collage7.png" alt="e-7" class="img-fluid object-fit-cover w-100" style="height:320px">
+                    <img src="assests/images/event-collage17.png" alt="e-7" class="img-fluid object-fit-cover w-100" style="height:500px">
                 </div>
                 <div class="col-6">
-                    <img src="assests/images/event-collage11.png" alt="e-9" class="img-fluid object-fit-cover w-100" style="height:320px">
+                    <img src="assests/images/Yogapeeps1.jpg" alt="e-9" class="img-fluid object-fit-cover w-100" style="height:300px">
+                    <div class="text-start">
+                        <h1>Balance and Harmony</h1>
+                        <br>
+                        <p>"Find balance and harmony in your life with our tailored yoga programs that cater to all levels and needs."</p>
+                    </div>
                 </div>
             </div>
         </div>
