@@ -1,223 +1,98 @@
-<?php include "header.php" ?>
+<?php include ("header.php") ?>
 
 
-<!-- Background Image -->
-<img src="assests/images/health-m.jpg" alt="Background Image" 
-     class="img-fluid position-fixed w-100 z-n1 vh-100 object-fit-cover">
-
-<div class="text-center pt-5 bg-white">
-
-</div>
-
-<div class="container-fluid mx-auto py-3 bg-white">
-    <div class="text-dark text-start pt-5 bg-white my-auto">
-        <h1 class="py-2 px-5 fw-bolder bg-white">Latest Events</h1>
-    </div>
-</div>
-
-<div class="row-fuild d-flex">
-    <div class="col-lg-2 col-md-1 bg-white">
-
-    </div>
-
-    <div class="col-lg-8 col-md-10 " >
-        <div class=" text-center align-items-center my-auto d-flex align-items-center justify-content-center min-vh-100">
-            <a href="#" style="text-decoration: none;"><h1 class="align-items-center text-warning text-center">Uniting Nation from 2nd to 5th June</h1></a>
-        </div>
-    </div>
-
-    <div class="col-lg-2 col-md-1 bg-white"> 
-
-    </div>
-</div>
-<div class="text-center py-5 bg-white">
-
-</div>
-
-
-<div class="container-fluid bg-warning py-5">
-    <div class="col-lg-8 col-md-8 col-sm-8 mx-auto py-5">
-        <div class="row">
-            <div class="col-6 col-md-6 col-sm-6 g-2">
-                <div class="d-flex justify-content-center">
-                    <a href="events-imgs.php" class="btn bg-warning btn-outline-dark rounded-0 py-3 px-4">Explore more</a>
-                </div>
-            </div>
-            <div class="col-6 col-md-6 col-sm-6 g-2">
-                <div class="d-flex justify-content-center">
-                    <a href="events-imgs.php" class="btn bg-warning btn-outline-dark rounded-0 py-3 px-4">Explore more</a>
-                </div>
-            </div>
+<div class="container-fluid pt-5">
+    <div class="col-lg-8 col-md-8 col-sm-8 mx-auto pt-5">
+        <div class="text-start pt-4">
+            <h4 class="text-warning fw-bolder pt-4">
+                Take Part in our upcoming events and programs
+            </h4>
+            <p>Progress yourelf in the world with fresh mind meet like minded souls in the journey</p>
         </div>
     </div>
 </div>
 
-<!--bootstrap carousel applications-->
-
-<!-- Bootstrap 5 Carousel -->
-
-<div class="text-center bg-white py-4">
-    <h1 class="bg-white text-warning text-center">Outdoor Events -"Feel the nature around you"</h1>
-</div>
-<div class="container-fuild">
-    <div class="row py-5 bg-white px-3">
-        <div class="col-lg-3 col-md-4 col-sm-6 py-3 px-2">
-            <img src="assests/images/yogapeeers.avif" alt="" class="img-fluid object-fit-cover w-100">
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 py-3 px-2">
-            <img src="assests/images/Yogapeeps.jpg" alt="" class="img-fluid object-fit-cover">
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 py-3 px-2">
-            <img src="assests/images/Yogapeeps3.jpg" alt="" class="img-fluid object-fit-cover w-100">
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 py-3 px-2">
-            <img src="assests/images/yogapeers2.avif" alt="" class="img-fluid object-fit-cover">
-        </div>
-    </div>
-</div>
-
-
-
-<div id="cardCarousel" class="carousel slide bg-warning" data-bs-ride="carousel" id="carousel-ki-to">
-    <!-- Carousel Controls (Adjusted Height) -->
-    <button class="carousel-control-prev custom-control" type="button" data-bs-target="#cardCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-    </button>
-    <button class="carousel-control-next custom-control" type="button" data-bs-target="#cardCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon"></span>
-    </button>
-
-    <!-- Carousel Inner -->
-    <div class="carousel-inner">
-        <div class="carousel-item active" id="item-carousel">
-            <div class="d-flex justify-content-center pt-5">
-                <div class="card mx-2" style="width: 18rem; height: 550px;">
-                    <img src="assests/images/yoga-car1.jpg" class="card-img-top img-fluid" alt="Card Image 1">
-                    <div class="card-body position-absolute top-50 text-dark bg-white w-100">
-                        <h5 class="card-title">Full Moon Meditation & Purification Ceremony</h5>
-                        <p class="card-text"><strong>Date & Time:</strong> February 12, 2025, 6:30 PM. <br> <strong>Location: </strong> Ananda Sangha Delhi, N-100, Panchsheel Park, New Delhi</p>
-                        <a href="search_result.php" class="btn btn-outline-light px-4 py-2 rounded-0">Read more</a>
-                    </div>
-                </div>
-                <div class="card mx-2 d-none d-md-block" style="width: 18rem; height: 550px;">
-                    <img src="assests/images/Yogapeeps1.jpg" class="card-img-top img-fluid object-fit-cover" alt="Card Image 2">
-                    <div class="card-body position-absolute top-50 text-dark bg-white w-100">
-                        <h5 class="card-title">Introduction to Meditation and the Path of Kriya Yoga</h5>
-                        <p class="card-text"><strong>Date & Time:</strong> February 14, 2025, 7:00 PM. <br> <strong>Location:</strong> Ananda Sangha Delhi, N-100, Panchsheel Park, New Delhi</p>
-                        <a href="search_result.php" class="btn btn-outline-light px-4 py-2 rounded-0">Read more</a>
-                    </div>
-                </div>
-                <div class="card mx-2 d-none d-lg-block" style="width: 18rem; height: 550px;">
-                    <img src="assests/images/yogapeers2.avif" class="card-img-top" alt="Card Image 3">
-                    <div class="card-body card-body position-absolute top-50 text-dark bg-white w-100">
-                        <h5 class="card-title">Introduction to Paramhansa Yogananda’s Nine-Day Cleansing and Vitalizing Diet</h5>
-                        <p class="card-text"><strong>Date & Time:</strong> February 15, 2025, 5:45 PM. <strong>Location:</strong>  Online</p>
-                        <a href="search_result.php" class="btn btn-outline-light px-4 py-2 rounded-0">Read more</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="carousel-item">
-            <div class="d-flex justify-content-center pt-5">
-                <div class="card mx-2 rounded" style="width: 18rem; height: 550px;">
-                    <img src="assests/images/Yogapeeps3.jpg" class="card-img-top" alt="Card Image 4">
-                    <div class="card-body card-body position-absolute top-50 text-dark bg-white w-100">
-                        <h5 class="card-title">Kriya Preparation 1 - Part 2</h5>
-                        <p class="card-text"><strong>Date & Time:</strong> March 30, 2025, 11:30 AM. <br><strong>Location:</strong> Ananda Sangha Delhi, N-100, Panchsheel Park, New Delhi</p>
-                        <a href="search_result.php" class="btn btn-outline-light px-4 py-2 rounded-0">Read more</a>
-                    </div>
-                </div>
-                <div class="card mx-2 d-none d-md-block rounded" style="width: 18rem; height: 550px;">
-                    <img src="assests/images/yoga-car6.webp" class="card-img-top" alt="Card Image 5">
-                    <div class="card-body card-body position-absolute top-50 text-dark bg-white w-100">
-                        <h5 class="card-title">World Meditation Day Special Programme</h5>
-                        <p class="card-text"><strong>Date & Time:</strong> December 21, 2025, 10:00 AM. <strong>Location:</strong> YSS, Hyderabad</p>
-                        <a href="search_result.php" class="btn btn-outline-light px-4 py-2 rounded-0">Read more</a>
-                    </div>
-                </div>
-                <div class="card mx-2 d-none d-lg-block rounded" style="width: 18rem; height: 550px;">
-                    <img src="assests/images/yoga-car4.jpg" class="card-img-top" alt="Card Image 6">
-                    <div class="card-body card-body position-absolute top-50 text-dark bg-white w-100">
-                        <h5 class="card-title">Guru Purnima Celebration</h5>
-                        <p class="card-text"><strong>Date & Time:</strong> July 6, 2025, 9:00 AM. <br> <strong>Location:</strong>  Isha Yoga Center, Coimbatore</p>
-                        <a href="search_result.php" class="btn btn-outline-light px-4 py-2 rounded-0">Read more</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="container-fluid bg-white">
-    <div class="text-center fs-1 pt-4 fw-bolder">
-        Reborn with New Energy ( Spiritually)
-    </div>
-</div>
-
-<div class="text-center bg-white py-5">
-    <a href="courses.php" class="btn btn-outline-light px-4 py-2 rounded-0">Register now</a>
-</div>
-
-
-
-<div class="container-fluid bg-white">
-        <div class="row">
-            <div class="col-2">
-        
-            </div>
-            <div class="col-8" id="videoMain">
+<div class="container-fluid pt-2">
+    <div class="col-lg-10 col-md-10 col-sm-10 mx-auto pt-2">
+        <div class="row pt-5">
+            <div class="col-lg-8 col-md-8 col-sm-10 " id="videoMain">
                 <video src="assests/images/vide01.mp4" class="w-100 vh-100 object-fit-cover" type="video/mp4" autoplay loop controls id="first-video-link"></video>
+                <div class="text-start py-3">
+                    <h4>At Himlayala Yoga, You will be not only practicing yoga, but also being a part of our Community </h4>
+                    <p>Practicing yoga offers numerous physical, mental, and emotional benefits that cater to individuals of all ages and fitness levels. It promotes flexibility, strength, and balance, which can help prevent injuries and improve overall physical health. Additionally, yoga encourages mindfulness and stress reduction, fostering a sense of inner peace and mental clarity. For anyone interested in diving deeper into yoga, joining Himalaya Yoga is an excellent choice. With its comprehensive collection of yoga videos, you can learn from skilled instructors and follow along at your own pace. The serene environment and expertly designed programs at Himalaya Yoga ensure that you receive the full spectrum of yoga's benefits, making it an ideal destination for anyone looking to enhance their well-being through this ancient practice. 🌿🧘‍♂️</p>
+                </div>
             </div>
-            <div class="col-2">
-        
+            <div class="col-lg-4 col-md-4 col-sm-10">
+                <div class="col-lg-10 col-md-10 col-sm-8 mx-auto" style=" height: 80vh; overflow-y: scroll;" id="mustbelateral">
+                    <div class="row d-flex flex-row">
+                        <div class="col-lg-12 col-md-10 col-sm-10 mx-auto" id="fs-video-1"> 
+                            <video src="assests/images/video04.mp4" class="video-fluid w-100" controls autoplay loop id="second_vide_link"></video>
+                        </div>
+                        <div class="col-lg-12 col-md-10 col-sm-10 mx-auto" id="fs-video-2">
+                            <video src="assests/images/video001.mov" class="video-fluid w-100" controls loop autoplay></video>
+                        </div>
+                        <div class="col-lg-12 col-md-10 col-sm-10 mx-auto" id="fs-video-3">
+                            <video src="assests/images/video0002.mov" class="video-fluid w-100" controls loop autoplay></video>
+                        </div>
+                        <div class="col-lg-12 col-md-10 col-sm-10 mx-auto" id="fs-video-4">
+                            <video src="https://videos.pexels.com/video-files/11274562/11274562-uhd_2560_1440_24fps.mp4" class="video-fluid w-100" controls loop autoplay></video>
+                        </div>
+                        <div class="col-lg-12 col-md-10 col-sm-10 mx-auto" id="fs-video-4">
+                            <video src="https://videos.pexels.com/video-files/5837789/5837789-uhd_2560_1440_24fps.mp4" class="video-fluid w-100" controls loop autoplay></video>
+                        </div>
+                        <div class="col-lg-12 col-md-10 col-sm-10 mx-auto" id="fs-video-4">
+                            <video src="https://videos.pexels.com/video-files/3327806/3327806-hd_1920_1080_24fps.mp4" class="video-fluid w-100" controls loop autoplay></video>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="container-fluid bg-white">
-        <div class="row py-3">
-            <div class="col-3" id="fs-video-1"> 
-                <video src="assests/images/video04.mp4" class="video-fluid w-100" controls  id="second_vide_link"></video>
+</div>
+
+<div class="container-fluid bg-warning py-4">
+    <div class="text-center ">
+        <div class="col-lg-5 col-md-6 col-sm-8 mx-auto">
+            <h5>The unltimate cure to your body and soul</h5>
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid pt-4 pb-4">
+    <div class="col-lg-12 col-md-10 col-sm-10 mx-auto">
+        <div class="row justify-content-evenly">
+            <div class="col-lg-2 col-md-3 col-sm-6">
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/yPK7ISPEu3M?si=gn4XpklWXz9AL8Sm&amp;controls=0" Controls></iframe>
+                </div>
             </div>
-            <div class="col-3" id="fs-video-2">
-                <video src="assests/images/video001.mov" class="video-fluid w-100"controls ></video>
+            <div class="col-lg-2 col-md-3 col-sm-6 ">
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/24RYHE3HlCQ?si=8mzbjyIDL5p068wf&amp;controls=0" Controls></iframe>
+                </div>
             </div>
-            <div class="col-3" id="fs-video-3">
-                <video src="assests/images/video0002.mov" class="video-fluid w-100" controls></video>
+            <div class="col-lg-2 col-md-3 col-sm-6">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZVd54YYdf3o?si=hIuQEGXD_onSWTzT&amp;controls=0" Controls></iframe>
+                </div>
             </div>
-            <div class="col-3" id="fs-video-4">
-                <video src="assests/images/vide01.mp4" class="video-fluid w-100" controls></video>
+            <div class="col-lg-2 col-md-3 col-sm-6">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/brjAjq4zEIE?si=7GNaFQxOSL2qLF1C&amp;controls=0" Controls></iframe>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-6 ">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/yPK7ISPEu3M?si=gn4XpklWXz9AL8Sm&amp;controls=0" Controls></iframe>
+                </div>
             </div>
         </div>
     </div>
-
-<!-- <div class="container-fluid bg-white">
-    <div class="row py-5 px-4">
-        <div class="col-6 d-flex flex-row">
-            <video src="assests/images/vide01.mp4" class="video-fluid w-100 object-fit-cover" type="video/webm" controls></video>
-        </div>
-        <div class="col-6">
-            <video src="assests/images/video04.mp4" class="video-fluid w-100 object-fit-cover" type="video/webm" controls></video>
-        </div>
-    </div>
-    <div class="row pb-4 - px-4 ">
-        <div class="col-6">
-            <video src="assests/images/video001.mov" class="video-fluid w-100 object-fit-cover" type="video/webm" controls></video>
-        </div>
-        <div class="col-6">
-            <video src="assests/images/video0002.mov" class="video-fluid w-100 object-fit-cover" type="video/webm" controls></video>
-        </div>
-    </div>
-</div> -->
+</div>
 
 
 
 
 
-
-
-
-
-
-
-<?php include "footer.php" ?>
+<?php include ("footer.php") ?>
