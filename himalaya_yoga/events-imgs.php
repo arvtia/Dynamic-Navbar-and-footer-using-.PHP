@@ -1,170 +1,214 @@
-<?php include ("header.php") ?>
+<?php include "header.php" ?>
 
 
-<div class="text-center">
-    <div class="row pt-5">
-        <div class="text-center pt-5">
-            <h1 class="text-warning pt-4">The reasons why you should join the upcoming events.</h1>
-        </div>
+<!-- Background Image -->
+<img src="assests/images/health-m.jpg" alt="Background Image" 
+     class="img-fluid position-fixed w-100 z-n1 vh-100 object-fit-cover">
+
+<div class="text-center pt-5 bg-white">
+
+</div>
+
+<div class="container-fluid mx-auto py-3 bg-white">
+    <div class="text-dark text-start pt-5 bg-white my-auto">
+        <h1 class="py-2 px-5 fw-bolder bg-white">Latest Events</h1>
     </div>
 </div>
 
+<div class="row-fuild d-flex">
+    <div class="col-lg-2 col-md-1 bg-white">
 
-<div class="container-fluid pt-3">
-    <div class="col-lg-8 col-md-8  col-sm-8 pt-4 mx-auto">
-        <div class="row px-2 pt-5 pb-3">
-            <div class="col-lg-3 col-md-5 col-sm-5 g-2" data-aos="fade-up" data-aos-duration="2500">
-                <div class="position-relative">
-                    <img src="assests/images/event-collage10.png" alt=""  class="img-fluid object-fit-cover" style="height:400px;">
-                        <div class="text-center position-absolute top-50 start-0 z-1 bg-black">
-                            <p class="text-white">
-                                <strong class="text-warning">Lotus Flower:</strong>"At himalaya Yoga, we believe in the purity and enlightenment symbolized by the lotus flower. This beautiful pink lotus, with its delicate petals and vibrant yellow center.
-                            </p>
-                        </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-5 col-sm-5 g-2" data-aos="fade-up" data-aos-duration="2000">
-                <div class="position-relative">
-                    <img src="assests/images/event-collage17.png" alt=""  class="img-fluid object-fit-cover" style="height:400px;">
-                        <div class="text-center position-absolute top-50 start-0 z-1 bg-black">
-                            <p class="text-white">
-                                <strong class="text-warning">Yoga Trainer with Students:</strong> "Join us at Himalaya Yoga, where our skilled yoga trainer leads a group of dedicated students in a serene, sunlit studio. Experience the perfection. 
-                            </p>
-                        </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-5 col-sm-5 g-2" data-aos="fade-up" data-aos-duration="1500">
-                <div class="position-relative">
-                    <img src="assests/images/yoga-car6.webp" alt=""  class="img-fluid object-fit-cover" style="height:400px;">
-                        <div class="text-center position-absolute top-50 start-0 z-1 bg-black">
-                            <p class="text-white">
-                                <strong class="text-warning">Lady Practicing Yoga Alone on a Yoga Mat:</strong> "At himalaya Yoga, we offer a peaceful environment for personal practice. This image captures a dedicated woman practicing yoga.
-                        </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-5 col-sm-5 g-2" data-aos="fade-up" data-aos-duration="1000">
-                <div class="position-relative">
-                    <img src="assests/images/yoga-car5.jpg" alt=""  class="img-fluid object-fit-cover" style="height:400px;">
-                        <div class="text-center position-absolute top-50 start-0 z-1 bg-black">
-                            <p class="text-white">
-                                <strong class="text-warning">Woman Practicing Mindfulness:</strong> "Discover the essence of mindfulness at Himalaya Yoga. This serene woman, sitting cross-legged in a traditional meditation pose, reflects the inner calm.
-                        </div>
-                </div>
-            </div>  
+    </div>
+
+    <div class="col-lg-8 col-md-10 " >
+        <div class=" text-center align-items-center my-auto d-flex align-items-center justify-content-center min-vh-100">
+            <a href="#" style="text-decoration: none;"><h1 class="align-items-center text-warning text-center">Uniting Nation from 2nd to 5th June</h1></a>
         </div>
     </div>
-</div>
-<div class="container-fluid">
-    <div class="text-center py-4 ">
-        <h1>Never Seen Before Experience</h1>
+
+    <div class="col-lg-2 col-md-1 bg-white"> 
+
     </div>
-    <div class="col-lg-6 col-md-8 col-sm-10 mx-auto pt-3 pb-4 ">
+</div>
+<div class="text-center py-5 bg-white">
+
+</div>
+
+
+<div class="container-fluid bg-warning py-5">
+    <div class="col-lg-8 col-md-8 col-sm-8 mx-auto py-5">
         <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-6 g-2">
-                <img src="assests/images/event-collage5.png" alt="e-5" class="img-fluid object-fit-cover w-100" style="height:500px">
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-6 g-2 d-flex flex-column">
-                <div class="text-dark">
-                    <img src="assests/images/event-collage9.png" alt="e-2" style="width:100%;">
-                </div>
-                <div class="text-start">
-                    <h1>Journey to Inner Peace</h1>
-                    <br>
-                    <p>"Diving into on a transformative journey to inner peace with our comprehensive yoga practices and meditation techniques."</p>
-                </div>
-                <!-- <img src="assests/images/event-collage6.png" alt="e-6" class="img-fluid object-fit-cover" style="height:320px"> -->
-            </div>
-        </div>
-        <div class="row pt-4">
-            <div class="col-lg-6 col-md-6 col-sm-6 g-2">
-            <div class="text-dark">
-                    <img src="assests/images/event-collage7.png" alt="e-2" style="width:100%;">
-                </div>
-                <div class="text-start">
-                    <h1>The Art of Breath</h1>
-                    <br>
-                    <p>"Discover the art of breath control with our Pranayama classes, designed to enhance your physical and mental well-being."</p>
-                </div>
-                <!-- <img src="assests/images/event-collage7.png" alt="e-7" class="img-fluid object-fit-cover w-100" style="height:320px"> -->
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-6 g-2">
-                <img src="assests/images/event-collage12png.avif" alt="e-9" class="img-fluid object-fit-cover w-100" style="height:500px">
-            </div>
-        </div>
-        <!-- hidden div.. will appear on onclick function -->
-        <div class="text-center" id="block-c-1">
-            <div class="row pt-4">
-                <div class="col-lg-6 col-md-6 col-sm-6 g-2">
-                    <img src="assests/images/event-collage13.png" alt="e-7" class="img-fluid object-fit-cover w-100" style="height:500px">
-                </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 g-2">
-                        <img src="assests/images/event-collage10.png" alt="e-9" class="img-fluid object-fit-cover w-100" style="height:300px">
-                    <div class="text-start">
-                        <h1>Path to Enlightenment</h1>
-                        <br>
-                        <p>"Explore the path to enlightenment through our Hatha and Ashtanga Yoga classes, guided by experienced instructors."</p>
-                    </div>
+            <div class="col-6 col-md-6 col-sm-6 g-2">
+                <div class="d-flex justify-content-center">
+                    <a href="events-imgs.php" class="btn bg-warning btn-outline-dark rounded-0 py-3 px-4">Explore more</a>
                 </div>
             </div>
-            <div class="row pt-4">
-                <div class="col-lg-6 col-md-6 col-sm-6 g-2">
-                    <img src="assests/images/event-collage1.png" alt="e-7" class="img-fluid object-fit-cover w-100" style="height:300px">
-                    <div class="text-start">
-                        <h1>Path to Enlightenment</h1>
-                        <br>
-                        <p>"Explore the path to enlightenment through our Hatha and Ashtanga Yoga classes, guided by experienced instructors."</p>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 g-2">
-                    <img src="assests/images/event-collage14.png" alt="e-9" class="img-fluid object-fit-cover w-100" style="height:500px">
+            <div class="col-6 col-md-6 col-sm-6 g-2">
+                <div class="d-flex justify-content-center">
+                    <a href="events-imgs.php" class="btn bg-warning btn-outline-dark rounded-0 py-3 px-4">Explore more</a>
                 </div>
             </div>
         </div>
-        <!-- block of text with images to be appeard on second click read more -->
-        <div class="text-center" id="block-c-2">
-            <div class="row pt-4">
-                <div class="col-lg-6 col-md-6 col-sm-6 g-2">
-                    <img src="assests/images/event-collage15.png" alt="e-7" class="img-fluid object-fit-cover w-100" style="height:500px">
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 g-2">
-                    <img src="assests/images/event-collage6.png" alt="e-9" class="img-fluid object-fit-cover w-100" style="height:300px">
-                    <div class="text-start">
-                        <h1>Balance and Harmony</h1>
-                        <br>
-                        <p>"Find balance and harmony in your life with our tailored yoga programs that cater to all levels and needs."</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row pt-4">
-                <div class="col-lg-6 col-md-6 col-sm-6 g-2">
-                    <img src="assests/images/event-collage17.png" alt="e-7" class="img-fluid object-fit-cover w-100" style="height:500px">
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 g-2">
-                    <img src="assests/images/Yogapeeps1.jpg" alt="e-9" class="img-fluid object-fit-cover w-100" style="height:300px">
-                    <div class="text-start">
-                        <h1>Balance and Harmony</h1>
-                        <br>
-                        <p>"Find balance and harmony in your life with our tailored yoga programs that cater to all levels and needs."</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <dov class="row py-3">
-            <div class="col-lg-4 col-md-3 col-sm-2 " >
+    </div>
+</div>
 
-            </div>
-            <div class="col-lg-4 col-md-5 justify-content-center d-flex" >
-                <button type="button" class="btn btn-outline-white rounded-0 ">See more !</button>
-            </div>
-            <div class="col-lg-4 col-md-3 col-sm-2">
+<!--bootstrap carousel applications-->
 
-            </div>
-        </dov>
+<!-- Bootstrap 5 Carousel -->
+
+<div class="text-center bg-white py-4">
+    <h1 class="bg-white text-warning text-center">Outdoor Events -"Feel the nature around you"</h1>
+</div>
+<div class="container-fuild">
+    <div class="row py-5 bg-white px-3">
+        <div class="col-lg-3 col-md-4 col-sm-6 py-3 px-2">
+            <img src="assests/images/yogapeeers.avif" alt="" class="img-fluid object-fit-cover w-100">
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 py-3 px-2">
+            <img src="assests/images/Yogapeeps.jpg" alt="" class="img-fluid object-fit-cover">
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 py-3 px-2">
+            <img src="assests/images/Yogapeeps3.jpg" alt="" class="img-fluid object-fit-cover w-100">
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 py-3 px-2">
+            <img src="assests/images/yogapeers2.avif" alt="" class="img-fluid object-fit-cover">
+        </div>
     </div>
 </div>
 
 
 
+<div id="cardCarousel" class="carousel slide bg-warning" data-bs-ride="carousel" id="carousel-ki-to">
+    <!-- Carousel Controls (Adjusted Height) -->
+    <button class="carousel-control-prev custom-control" type="button" data-bs-target="#cardCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next custom-control" type="button" data-bs-target="#cardCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+
+    <!-- Carousel Inner -->
+    <div class="carousel-inner">
+        <div class="carousel-item active" id="item-carousel">
+            <div class="d-flex justify-content-center pt-5">
+                <div class="card mx-2" style="width: 18rem; height: 550px;">
+                    <img src="assests/images/yoga-car1.jpg" class="card-img-top img-fluid" alt="Card Image 1">
+                    <div class="card-body position-absolute top-50 text-dark bg-white w-100">
+                        <h5 class="card-title">Full Moon Meditation & Purification Ceremony</h5>
+                        <p class="card-text"><strong>Date & Time:</strong> February 12, 2025, 6:30 PM. <br> <strong>Location: </strong> Ananda Sangha Delhi, N-100, Panchsheel Park, New Delhi</p>
+                        <a href="search_result.php" class="btn btn-outline-light px-4 py-2 rounded-0">Read more</a>
+                    </div>
+                </div>
+                <div class="card mx-2 d-none d-md-block" style="width: 18rem; height: 550px;">
+                    <img src="assests/images/Yogapeeps1.jpg" class="card-img-top img-fluid object-fit-cover" alt="Card Image 2">
+                    <div class="card-body position-absolute top-50 text-dark bg-white w-100">
+                        <h5 class="card-title">Introduction to Meditation and the Path of Kriya Yoga</h5>
+                        <p class="card-text"><strong>Date & Time:</strong> February 14, 2025, 7:00 PM. <br> <strong>Location:</strong> Ananda Sangha Delhi, N-100, Panchsheel Park, New Delhi</p>
+                        <a href="search_result.php" class="btn btn-outline-light px-4 py-2 rounded-0">Read more</a>
+                    </div>
+                </div>
+                <div class="card mx-2 d-none d-lg-block" style="width: 18rem; height: 550px;">
+                    <img src="assests/images/yogapeers2.avif" class="card-img-top" alt="Card Image 3">
+                    <div class="card-body card-body position-absolute top-50 text-dark bg-white w-100">
+                        <h5 class="card-title">Introduction to Paramhansa Yogananda’s Nine-Day Cleansing and Vitalizing Diet</h5>
+                        <p class="card-text"><strong>Date & Time:</strong> February 15, 2025, 5:45 PM. <strong>Location:</strong>  Online</p>
+                        <a href="search_result.php" class="btn btn-outline-light px-4 py-2 rounded-0">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <div class="d-flex justify-content-center pt-5">
+                <div class="card mx-2 rounded" style="width: 18rem; height: 550px;">
+                    <img src="assests/images/Yogapeeps3.jpg" class="card-img-top" alt="Card Image 4">
+                    <div class="card-body card-body position-absolute top-50 text-dark bg-white w-100">
+                        <h5 class="card-title">Kriya Preparation 1 - Part 2</h5>
+                        <p class="card-text"><strong>Date & Time:</strong> March 30, 2025, 11:30 AM. <br><strong>Location:</strong> Ananda Sangha Delhi, N-100, Panchsheel Park, New Delhi</p>
+                        <a href="search_result.php" class="btn btn-outline-light px-4 py-2 rounded-0">Read more</a>
+                    </div>
+                </div>
+                <div class="card mx-2 d-none d-md-block rounded" style="width: 18rem; height: 550px;">
+                    <img src="assests/images/yoga-car6.webp" class="card-img-top" alt="Card Image 5">
+                    <div class="card-body card-body position-absolute top-50 text-dark bg-white w-100">
+                        <h5 class="card-title">World Meditation Day Special Programme</h5>
+                        <p class="card-text"><strong>Date & Time:</strong> December 21, 2025, 10:00 AM. <strong>Location:</strong> YSS, Hyderabad</p>
+                        <a href="search_result.php" class="btn btn-outline-light px-4 py-2 rounded-0">Read more</a>
+                    </div>
+                </div>
+                <div class="card mx-2 d-none d-lg-block rounded" style="width: 18rem; height: 550px;">
+                    <img src="assests/images/yoga-car4.jpg" class="card-img-top" alt="Card Image 6">
+                    <div class="card-body card-body position-absolute top-50 text-dark bg-white w-100">
+                        <h5 class="card-title">Guru Purnima Celebration</h5>
+                        <p class="card-text"><strong>Date & Time:</strong> July 6, 2025, 9:00 AM. <br> <strong>Location:</strong>  Isha Yoga Center, Coimbatore</p>
+                        <a href="search_result.php" class="btn btn-outline-light px-4 py-2 rounded-0">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid bg-white">
+    <div class="text-center fs-1 pt-4 fw-bolder">
+        Reborn with New Energy ( Spiritually)
+    </div>
+</div>
+
+<div class="text-center bg-white py-5">
+    <a href="courses.php" class="btn btn-outline-light px-4 py-2 rounded-0">Register now</a>
+</div>
+
+
+
+<div class="container-fluid bg-white">
+        <div class="row">
+            <div class="col-2">
+        
+            </div>
+            <div class="col-8" id="videoMain">
+                <video src="assests/images/vide01.mp4" class="w-100 vh-100 object-fit-cover" type="video/mp4" autoplay loop controls id="first-video-link"></video>
+            </div>
+            <div class="col-2">
+        
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-white">
+        <div class="row py-3">
+            <div class="col-3" id="fs-video-1"> 
+                <video src="assests/images/video04.mp4" class="video-fluid w-100" controls  id="second_vide_link"></video>
+            </div>
+            <div class="col-3" id="fs-video-2">
+                <video src="assests/images/video001.mov" class="video-fluid w-100"controls ></video>
+            </div>
+            <div class="col-3" id="fs-video-3">
+                <video src="assests/images/video0002.mov" class="video-fluid w-100" controls></video>
+            </div>
+            <div class="col-3" id="fs-video-4">
+                <video src="assests/images/vide01.mp4" class="video-fluid w-100" controls></video>
+            </div>
+        </div>
+    </div>
+
+<!-- <div class="container-fluid bg-white">
+    <div class="row py-5 px-4">
+        <div class="col-6 d-flex flex-row">
+            <video src="assests/images/vide01.mp4" class="video-fluid w-100 object-fit-cover" type="video/webm" controls></video>
+        </div>
+        <div class="col-6">
+            <video src="assests/images/video04.mp4" class="video-fluid w-100 object-fit-cover" type="video/webm" controls></video>
+        </div>
+    </div>
+    <div class="row pb-4 - px-4 ">
+        <div class="col-6">
+            <video src="assests/images/video001.mov" class="video-fluid w-100 object-fit-cover" type="video/webm" controls></video>
+        </div>
+        <div class="col-6">
+            <video src="assests/images/video0002.mov" class="video-fluid w-100 object-fit-cover" type="video/webm" controls></video>
+        </div>
+    </div>
+</div> -->
 
 
 
@@ -176,4 +220,4 @@
 
 
 
-<?php include ("footer.php") ?>
+<?php include "footer.php" ?>
