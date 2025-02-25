@@ -1,10 +1,19 @@
 <?php include ("header.php") ?>
 
 
-<div class="container-fluid pt-5">
-    <div class="col-8 pt-4 mx-auto">
+<div class="text-center">
+    <div class="row pt-5">
+        <div class="text-center pt-5">
+            <h1 class="text-warning pt-4">The reasons why you should join the upcoming events.</h1>
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid pt-3">
+    <div class="col-lg-8 col-md-8  col-sm-8 pt-4 mx-auto">
         <div class="row px-2 pt-5 pb-3">
-            <div class="col-3" data-aos="fade-up" data-aos-duration="2500">
+            <div class="col-lg-3 col-md-5 col-sm-5 g-2" data-aos="fade-up" data-aos-duration="2500">
                 <div class="position-relative">
                     <img src="assests/images/event-collage10.png" alt=""  class="img-fluid object-fit-cover" style="height:400px;">
                         <div class="text-center position-absolute top-50 start-0 z-1 bg-black">
@@ -14,9 +23,9 @@
                         </div>
                 </div>
             </div>
-            <div class="col-3" data-aos="fade-up" data-aos-duration="2000">
+            <div class="col-lg-3 col-md-5 col-sm-5 g-2" data-aos="fade-up" data-aos-duration="2000">
                 <div class="position-relative">
-                    <img src="assests/images/event-collage2.png" alt=""  class="img-fluid object-fit-cover" style="height:400px;">
+                    <img src="assests/images/event-collage17.png" alt=""  class="img-fluid object-fit-cover" style="height:400px;">
                         <div class="text-center position-absolute top-50 start-0 z-1 bg-black">
                             <p class="text-white">
                                 <strong class="text-warning">Yoga Trainer with Students:</strong> "Join us at Himalaya Yoga, where our skilled yoga trainer leads a group of dedicated students in a serene, sunlit studio. Experience the perfection. 
@@ -24,18 +33,18 @@
                         </div>
                 </div>
             </div>
-            <div class="col-3" data-aos="fade-up" data-aos-duration="1500">
+            <div class="col-lg-3 col-md-5 col-sm-5 g-2" data-aos="fade-up" data-aos-duration="1500">
                 <div class="position-relative">
-                    <img src="assests/images/event-collage3.png" alt=""  class="img-fluid object-fit-cover" style="height:400px;">
+                    <img src="assests/images/yoga-car6.webp" alt=""  class="img-fluid object-fit-cover" style="height:400px;">
                         <div class="text-center position-absolute top-50 start-0 z-1 bg-black">
                             <p class="text-white">
                                 <strong class="text-warning">Lady Practicing Yoga Alone on a Yoga Mat:</strong> "At himalaya Yoga, we offer a peaceful environment for personal practice. This image captures a dedicated woman practicing yoga.
                         </div>
                 </div>
             </div>
-            <div class="col-3" data-aos="fade-up" data-aos-duration="1000">
+            <div class="col-lg-3 col-md-5 col-sm-5 g-2" data-aos="fade-up" data-aos-duration="1000">
                 <div class="position-relative">
-                    <img src="assests/images/event-collage4.png" alt=""  class="img-fluid object-fit-cover" style="height:400px;">
+                    <img src="assests/images/yoga-car5.jpg" alt=""  class="img-fluid object-fit-cover" style="height:400px;">
                         <div class="text-center position-absolute top-50 start-0 z-1 bg-black">
                             <p class="text-white">
                                 <strong class="text-warning">Woman Practicing Mindfulness:</strong> "Discover the essence of mindfulness at Himalaya Yoga. This serene woman, sitting cross-legged in a traditional meditation pose, reflects the inner calm.
@@ -49,12 +58,12 @@
     <div class="text-center py-4 ">
         <h1>Never Seen Before Experience</h1>
     </div>
-    <div class="col-6 mx-auto pt-3 pb-4">
+    <div class="col-lg-6 col-md-8 col-sm-10 mx-auto pt-3 pb-4 ">
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6 col-sm-6 g-2">
                 <img src="assests/images/event-collage5.png" alt="e-5" class="img-fluid object-fit-cover w-100" style="height:500px">
             </div>
-            <div class="col-lg-6 d-flex flex-column">
+            <div class="col-lg-6 col-md-6 col-sm-6 g-2 d-flex flex-column">
                 <div class="text-dark">
                     <img src="assests/images/event-collage9.png" alt="e-2" style="width:100%;">
                 </div>
@@ -67,7 +76,7 @@
             </div>
         </div>
         <div class="row pt-4">
-            <div class="col-6">
+            <div class="col-lg-6 col-md-6 col-sm-6 g-2">
             <div class="text-dark">
                     <img src="assests/images/event-collage7.png" alt="e-2" style="width:100%;">
                 </div>
@@ -78,17 +87,17 @@
                 </div>
                 <!-- <img src="assests/images/event-collage7.png" alt="e-7" class="img-fluid object-fit-cover w-100" style="height:320px"> -->
             </div>
-            <div class="col-6">
+            <div class="col-lg-6 col-md-6 col-sm-6 g-2">
                 <img src="assests/images/event-collage12png.avif" alt="e-9" class="img-fluid object-fit-cover w-100" style="height:500px">
             </div>
         </div>
         <!-- hidden div.. will appear on onclick function -->
         <div class="text-center" id="block-c-1">
             <div class="row pt-4">
-                <div class="col-6">
+                <div class="col-lg-6 col-md-6 col-sm-6 g-2">
                     <img src="assests/images/event-collage13.png" alt="e-7" class="img-fluid object-fit-cover w-100" style="height:500px">
                 </div>
-                    <div class="col-6">
+                    <div class="col-lg-6 col-md-6 col-sm-6 g-2">
                         <img src="assests/images/event-collage10.png" alt="e-9" class="img-fluid object-fit-cover w-100" style="height:300px">
                     <div class="text-start">
                         <h1>Path to Enlightenment</h1>
@@ -98,7 +107,7 @@
                 </div>
             </div>
             <div class="row pt-4">
-                <div class="col-6">
+                <div class="col-lg-6 col-md-6 col-sm-6 g-2">
                     <img src="assests/images/event-collage1.png" alt="e-7" class="img-fluid object-fit-cover w-100" style="height:300px">
                     <div class="text-start">
                         <h1>Path to Enlightenment</h1>
@@ -106,7 +115,7 @@
                         <p>"Explore the path to enlightenment through our Hatha and Ashtanga Yoga classes, guided by experienced instructors."</p>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-lg-6 col-md-6 col-sm-6 g-2">
                     <img src="assests/images/event-collage14.png" alt="e-9" class="img-fluid object-fit-cover w-100" style="height:500px">
                 </div>
             </div>
@@ -114,10 +123,10 @@
         <!-- block of text with images to be appeard on second click read more -->
         <div class="text-center" id="block-c-2">
             <div class="row pt-4">
-                <div class="col-6">
+                <div class="col-lg-6 col-md-6 col-sm-6 g-2">
                     <img src="assests/images/event-collage15.png" alt="e-7" class="img-fluid object-fit-cover w-100" style="height:500px">
                 </div>
-                <div class="col-6">
+                <div class="col-lg-6 col-md-6 col-sm-6 g-2">
                     <img src="assests/images/event-collage6.png" alt="e-9" class="img-fluid object-fit-cover w-100" style="height:300px">
                     <div class="text-start">
                         <h1>Balance and Harmony</h1>
@@ -127,10 +136,10 @@
                 </div>
             </div>
             <div class="row pt-4">
-                <div class="col-6">
+                <div class="col-lg-6 col-md-6 col-sm-6 g-2">
                     <img src="assests/images/event-collage17.png" alt="e-7" class="img-fluid object-fit-cover w-100" style="height:500px">
                 </div>
-                <div class="col-6">
+                <div class="col-lg-6 col-md-6 col-sm-6 g-2">
                     <img src="assests/images/Yogapeeps1.jpg" alt="e-9" class="img-fluid object-fit-cover w-100" style="height:300px">
                     <div class="text-start">
                         <h1>Balance and Harmony</h1>
@@ -140,20 +149,14 @@
                 </div>
             </div>
         </div>
-       
-
-
-
-
-
         <dov class="row py-3">
-            <div class="col-4" >
+            <div class="col-lg-4 col-md-3 col-sm-2 " >
 
             </div>
-            <div class="col-4 justify-content-center d-flex" >
+            <div class="col-lg-4 col-md-5 justify-content-center d-flex" >
                 <button type="button" class="btn btn-outline-white rounded-0 ">See more !</button>
             </div>
-            <div class="col-">
+            <div class="col-lg-4 col-md-3 col-sm-2">
 
             </div>
         </dov>
