@@ -501,3 +501,60 @@ footer{
     object-fit: cover; /* Ensures image covers the entire area while maintaining aspect ratio */
 
 }
+
+
+
+
+/*---------items cart---------*/
+
+.custom-height{
+    height: 70px;
+}
+
+
+@media (max-width: 768px) {
+    .ratio-16x9 {
+        height: 100vh;
+    }
+}
+
+.isHidden{
+    display: none;
+}
+
+/* drop down - links for events */
+
+#events-dd-L{
+    position: absolute;
+    display: none;
+}
+#events-dd:hover #events-dd-L{
+    display: block;
+}
+
+/* sidebar - nav bar icon */
+
+#event-down-arrow-dd{
+        height: 15px;
+        cursor: pointer;
+        left: -28px;
+        position: relative;
+}
+
+/*  */
+
+#list-items a {
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+    color: black;
+    padding-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#sn-dropdown-events {
+    display: none;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
