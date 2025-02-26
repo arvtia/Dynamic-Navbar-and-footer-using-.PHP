@@ -5,7 +5,7 @@
         
 <div id="carouselExampleInterval" class="carousel slide pointer-event" data-bs-ride="carousel">
     <div class="carousel-inner">
-      <div class="carousel-item carousel-item-next carousel-item-start" data-bs-interval="10000">
+      <div class="carousel-item carousel-item-next carousel-item-start" data-bs-interval="5000">
         <img src="assests/images/ca-4.jpg" class="img-fluid w-100 object-fit-cover" alt="">
           <div class="carousel-caption d-flex flex-column h-100 align-items-center justify-content-center">
             <h3>PRATYAHARA & DHARANA PRACTICES</h3>
